@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Regisztráció</title>
+</head>
+<body>
+  <h2>Regisztráció</h2>
+  <form action="/regisztracio" method="post">
+    <label for="email">E-mail cím:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="jelszo">Jelszó:</label>
+    <input type="password" id="jelszo" name="jelszo" required><br>
+
+    <label for="keresztnev">Keresztnév:</label>
+    <input type="text" id="keresztnev" name="keresztnev" required><br>
+
+    <label for="vezeteknev">Vezetéknév:</label>
+    <input type="text" id="vezeteknev" name="vezeteknev" required><br>
+
+    <label for="varos">Város:</label>
+    <input type="text" id="varos" name="varos" required><br>
+
+    <label for="iranyitoszam">Irányítószám:</label>
+    <input type="text" id="iranyitoszam" name="iranyitoszam" required maxlength="4"><br>
+
+    <label for="cim1">Cím (első sor):</label>
+    <input type="text" id="cim1" name="cim1" required><br>
+
+    <label for="cim2">Cím (második sor):</label>
+    <input type="text" id="cim2" name="cim2"><br>
+
+    <button type="submit">Regisztráció</button>
+  </form>
+</body>
+</html>
